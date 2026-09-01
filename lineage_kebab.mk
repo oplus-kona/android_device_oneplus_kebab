@@ -23,6 +23,25 @@ PRODUCT_MODEL := KB2005
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# Lunaris
+TARGET_CUSTOM_UDFPS := true
+USE_REALITY_ENGINE := true
+
+# SurfaceFlinger Refresh Rates
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
+# GMS & App Suite
+WITH_GMS := true
+TARGET_USE_MAPS := true
+TARGET_USE_FILES := true
+TARGET_USE_GPHOTOS := true
+TARGET_USE_WALLPAPERS := true
+
+# Maintainer & Properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lunaris.maintainer=zenzeros
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="OnePlus8T-user 14 UKQ1.230924.001 R.1a46c89-1_1 release-keys" \
     BuildFingerprint=OnePlus/OnePlus8T/OnePlus8T:14/UKQ1.230924.001/R.1a46c89-1_1:user/release-keys \
