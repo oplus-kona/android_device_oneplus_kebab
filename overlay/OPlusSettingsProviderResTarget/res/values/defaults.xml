@@ -7,8 +7,4 @@
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple" translatable="false">OnePlus 8T</string>
-
-    <!-- Default for Advanced Reboot (1 = enabled) -->
-    <integer name="def_advanced_reboot">1</integer>
-    <integer name="def_advanced_reboot_secured">1</integer>
 </resources>
