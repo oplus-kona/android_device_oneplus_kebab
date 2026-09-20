@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<displayConfiguration>
+    <screenBrightnessMap interpolation="linear">
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.02</value>
+            <nits>2.39</nits>
+        </point>
+        <point>
+            <value>0.05</value>
+            <nits>6.25</nits>
+        </point>
+        <point>
+            <value>0.10</value>
+            <nits>15.0</nits>
+        </point>
+        <point>
+            <value>0.25</value>
+            <nits>50.0</nits>
+        </point>
+        <point>
+            <value>0.40</value>
+            <nits>100.0</nits>
+        </point>
+        <point>
+            <value>0.55</value>
+            <nits>200.0</nits>
+        </point>
+        <point>
+            <value>0.70</value>
+            <nits>350.0</nits>
+        </point>
+        <point>
+            <value>0.85</value>
+            <nits>480.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>727.29</nits>
+        </point>
+    </screenBrightnessMap>
+
+    <screenBrightnessDefault>0.4</screenBrightnessDefault>
+
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.85</transitionPoint>
+        <minimumLux>8000.0</minimumLux>
+        <timing>
+            <!-- Time limitation for HBM -->
+            <timeWindowSecs>0</timeWindowSecs>
+            <timeMaxSecs>0</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <!-- Thermal limitation for HBM -->
+        <thermalStatusLimit>critical</thermalStatusLimit>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <minimumHdrPercentOfScreen>0.5</minimumHdrPercentOfScreen>
+        <!-- sdrHdrRatioMap, backed by spline, must have at least two entries -->
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>4.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>100.0</sdrNits>
+                <hdrRatio>4.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>200.0</sdrNits>
+                <hdrRatio>3.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>300.0</sdrNits>
+                <hdrRatio>2.5</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>480.0</sdrNits>
+                <hdrRatio>1.5</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
+    </highBrightnessMode>
+
+    <autoBrightness enabled="true">
+        <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>4000</darkeningLightDebounceMillis>
+    </autoBrightness>
+
+    <screenBrightnessRampFastDecrease>0.7047244</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.7047244</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.05</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
+    <screenBrightnessRampIncreaseMaxMillis>2000</screenBrightnessRampIncreaseMaxMillis>
+
+    <ambientLightHorizonLong>5000</ambientLightHorizonLong>
+    <ambientLightHorizonShort>50</ambientLightHorizonShort>
+
+    <defaultDozeBrightness>0.05</defaultDozeBrightness>
+</displayConfiguration>
