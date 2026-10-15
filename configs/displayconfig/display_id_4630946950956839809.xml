@@ -10,35 +10,35 @@
             <nits>2.0</nits>
         </point>
         <point>
-            <value>0.02</value>
+            <value>0.012</value>
             <nits>2.39</nits>
         </point>
         <point>
-            <value>0.05</value>
+            <value>0.029</value>
             <nits>6.25</nits>
         </point>
         <point>
-            <value>0.10</value>
+            <value>0.059</value>
             <nits>15.0</nits>
         </point>
         <point>
-            <value>0.25</value>
+            <value>0.147</value>
             <nits>50.0</nits>
         </point>
         <point>
-            <value>0.40</value>
+            <value>0.235</value>
             <nits>100.0</nits>
         </point>
         <point>
-            <value>0.55</value>
+            <value>0.323</value>
             <nits>200.0</nits>
         </point>
         <point>
-            <value>0.70</value>
+            <value>0.412</value>
             <nits>350.0</nits>
         </point>
         <point>
-            <value>0.85</value>
+            <value>0.4998779</value>
             <nits>480.0</nits>
         </point>
         <point>
@@ -47,10 +47,10 @@
         </point>
     </screenBrightnessMap>
 
-    <screenBrightnessDefault>0.4</screenBrightnessDefault>
+    <screenBrightnessDefault>0.235</screenBrightnessDefault>
 
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.85</transitionPoint>
+        <transitionPoint>0.4998779</transitionPoint>
         <minimumLux>8000.0</minimumLux>
         <timing>
             <!-- Time limitation for HBM -->
@@ -101,5 +101,5 @@
     <ambientLightHorizonLong>5000</ambientLightHorizonLong>
     <ambientLightHorizonShort>50</ambientLightHorizonShort>
 
-    <defaultDozeBrightness>0.05</defaultDozeBrightness>
+    <defaultDozeBrightness>0.029</defaultDozeBrightness>
 </displayConfiguration>
