@@ -100,12 +100,12 @@
         <item>1000</item>
         <item>2250</item>
         <item>4600</item>
-        <item>5900</item>
-        <item>8600</item>
+        <item>6000</item>
+        <item>8000</item>
         <item>10000</item>
-        <item>12000</item>
-        <item>16000</item>
-        <item>20000</item>
+        <item>13000</item>
+        <item>17000</item>
+        <item>22000</item>
         <item>30000</item>
         <item>40000</item>
         <item>50000</item>
@@ -139,14 +139,14 @@
         <item>157.15</item>
         <item>229.87</item>
         <item>289.04</item>
-        <item>308.69</item>
-        <item>337.40</item>
-        <item>350.43</item>
-        <item>368.52</item>
-        <item>404.43</item>
-        <item>443.85</item>
-        <item>518.71</item>
-        <item>643.57</item>
+        <item>370.0</item>
+        <item>480.0</item>
+        <item>550.0</item>
+        <item>620.0</item>
+        <item>680.0</item>
+        <item>727.29</item>
+        <item>727.29</item>
+        <item>727.29</item>
         <item>727.29</item>
     </array>
 
