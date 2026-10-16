@@ -14,7 +14,7 @@ fi
 
 # Dolby
 if [ ! -d "hardware/dolby" ]; then
-    git clone https://github.com/oplus-kona/hardware_dolby.git hardware/dolby
+    git clone -b sony-A17 https://github.com/oplus-kona/hardware_dolby.git hardware/dolby
 fi
 
 # Hardware
