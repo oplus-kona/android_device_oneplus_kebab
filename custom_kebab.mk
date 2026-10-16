@@ -12,16 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kebab device
 $(call inherit-product, device/oneplus/kebab/device.mk)
 
-# Inherit some common Clover stuff.
-$(call inherit-product, vendor/clover/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := clover_kebab
+PRODUCT_NAME := custom_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := KB2005
-
-CLOVER_MAINTAINER := zenzeros
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

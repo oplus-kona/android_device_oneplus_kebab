@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/clover_kebab.mk
+    $(LOCAL_DIR)/custom_kebab.mk
+
+COMMON_LUNCH_CHOICES := \
+    custom_kebab-user \
+    custom_kebab-userdebug \
+    custom_kebab-eng
