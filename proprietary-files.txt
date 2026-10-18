@@ -96,10 +96,6 @@ odm/etc/inparm/irissoft/inParm9_low_brightness.txt
 odm/etc/inparm/irissoft/mcfCheck.txt
 odm/etc/irissoft.fw
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
-
 # Sensors
 odm/etc/sensor/config/kona_T0_sx9324_0.json
 odm/etc/sensor/config/kona_T0_sx9324up_0.json
