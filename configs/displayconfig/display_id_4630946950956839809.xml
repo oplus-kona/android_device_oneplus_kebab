@@ -42,6 +42,18 @@
             <nits>480.0</nits>
         </point>
         <point>
+            <value>0.6376</value>
+            <nits>550.0</nits>
+        </point>
+        <point>
+            <value>0.7189</value>
+            <nits>620.0</nits>
+        </point>
+        <point>
+            <value>0.7846</value>
+            <nits>680.0</nits>
+        </point>
+        <point>
             <value>1.0</value>
             <nits>727.29</nits>
         </point>
@@ -86,6 +98,10 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
+
+    <quirks>
+        <quirk>canSetBrightnessViaHwc</quirk>
+    </quirks>
 
     <autoBrightness enabled="true">
         <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
