@@ -22,6 +22,10 @@ if [ ! -d "hardware/oplus" ]; then
     git clone --depth=1 https://github.com/oplus-kona/android_hardware_oplus.git -b aosp-17 hardware/oplus
 fi
 
+if [ ! -d "hardware/oneplus" ]; then
+    git clone --depth=1 https://github.com/oplus-kona/android_hardware_oneplus.git -b aosp-17 hardware/oneplus
+fi
+
 # Packages
 if [ ! -d "packages/apps/OnePlusParts" ]; then
     git clone --depth=1 https://github.com/oplus-kona/packages_apps_OnePlusParts.git -b main packages/apps/OnePlusParts
